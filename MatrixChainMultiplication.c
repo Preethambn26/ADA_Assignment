@@ -62,7 +62,7 @@ int MatrixChainOrder(int p[], int i, int j)
     return min;
 }
 
-void main()
+int main()
 {
 int k;
 printf("Enter the no. of elements: ");
@@ -90,5 +90,5 @@ i=1,j=n;
 printf("Multiplication Sequence : ");
 print_optimal(i,j);
 printf("\nMinimum number of multiplications is : %d ",MatrixChainOrder(p, 1, n));
-
+return 0;
 }
