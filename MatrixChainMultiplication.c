@@ -89,7 +89,6 @@ for(i=1;i<=n;i++)
 i=1,j=n;
 printf("Multiplication Sequence : ");
 print_optimal(i,j);
-printf("\nMinimum number of multiplications is : %d ",
-                          MatrixChainOrder(p, 1, n));
+printf("\nMinimum number of multiplications is : %d ",MatrixChainOrder(p, 1, n));
 
 }
